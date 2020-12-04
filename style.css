@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+
+}
+
+.heading {
+    font-family: 'Nerko One', cursive;
+    font-size: 25px
+}
+
+img {
+    border-radius: 50%;
+}
+
+p {
+    font-size: 20px;
+}
+
+#heading {
+    font-family: 'Nerko One', cursive;
+    font-size: 50px
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+    z-index: 10;
+}
+
+#home {
+    background-image: linear-gradient(to bottom right, blue, green);
+    z-index: 9;
+}
+
+#about {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    z-index: 9;
+}
+
+#videos
+{
+   background-image: linear-gradient(to bottom right, brown, purple); 
+    z-index: 9;
+}
+
+#writings
+{
+    background-image: linear-gradient(to bottom right, orange, pink); 
+    z-index: 9;
+}
+
+.links {
+    float: left;
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
